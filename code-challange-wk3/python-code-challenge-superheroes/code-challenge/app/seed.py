@@ -1,8 +1,8 @@
-from app import create_app
+# Assuming the Flask app instance and database (db) are already created and initialized in your main application file.
+from app import app
 from models import db, Power, Hero, HeroPower
-import random
-
-app = create_app()
+import random 
+# No need to create the app instance here
 
 with app.app_context():
     print("🦸‍♀️ Seeding powers...")
@@ -46,6 +46,5 @@ with app.app_context():
             hero_power = HeroPower(hero_id=hero.id, power_id=power.id, strength=random.choice(strengths))
             db.session.add(hero_power)
 
-   
     db.session.commit()
     print("🦸‍♀️ Done seeding!")
