@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-
 function LoginForm(props) {
   // State variables to store username and password
   const [username, setUsername] = useState("");
@@ -40,8 +39,8 @@ function LoginForm(props) {
   };
 
   return (
-    <div className="container">
-      <div className="row justify-content-center">
+    <div className="container-fluid">
+      <div className="row justify-content-center align-items-center vh-100">
         <div className="col-md-6">
           <div className="card">
             <div className="card-header">Login</div>

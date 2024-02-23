@@ -9,15 +9,14 @@ const Footer = () => {
             <div className="col-md-4">
               <h5>About Company</h5>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
-              </p>
+              PetCentral is a compassionate pet adoption agency dedicated to connecting loving families with adorable pets. Our mission is to provide forever homes for animals in need. With a team of dedicated professionals, we ensure responsible and joyful adoptions, fostering lasting companionship. Choose PetCentral for a heartwarming adoption experience.              </p>
             </div>
             <div className="col-md-4">
               <h5>Contact Details</h5>
               <p>
-                Location Address <br />
+                45th street Woodlands Avenue, Westlands <br />
                 Petcentral@gmail.com <br />
-                Phone Number
+                +254 712 044 330
               </p>
               <p>Copyright @petcentral All rights reserved</p>
             </div>
